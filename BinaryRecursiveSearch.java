@@ -24,7 +24,7 @@ public class BinaryRecursiveSearch implements Practice03Search
             }
             else
             {
-                return binSearch(arr, target, high, mid + 1);
+                return binSearch(arr, target, low, mid - 1);
             }
         }
         return -1;
